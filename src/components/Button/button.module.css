@@ -1,0 +1,33 @@
+.btncontainer{
+height: 50px;
+color: white;
+padding-right: 10px;
+
+
+}
+.primarybtn{
+    width: 15vw;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px 0 grey;
+    font-size: 1rem
+}
+.secondarybtn{
+    border: 1px solid black;
+    height:7vh;
+    width: 30vw;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 0 grey;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.primarybtn:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+.secondarybtn:hover{
+    background-color: rgb(230, 221, 221);
+}

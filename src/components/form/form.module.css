@@ -1,0 +1,70 @@
+.content{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+
+}
+.form_section{
+   margin-left: 100px;
+   width: 40%;
+}
+.btn_section{
+    height:20vh ;
+    width: 90%;
+   align-content: center;
+   padding:20px;
+
+}
+.topbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.bottombtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+
+}
+.form_image{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.form_image img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.form_section form{
+ height: 70%;
+    padding: 10px;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+}
+.in_forms{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+.in_forms input{
+    height: 40px;
+    padding: 0 8px;
+}
+.in_forms label{
+    font-size: 14px;
+    position: absolute;
+    top: -11px;
+    left: 10px;
+    background-color: white; 
+    padding: 0 10px; 
+ } 

@@ -1,0 +1,36 @@
+.header{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.logo {
+    height: 40px;
+    width: 50px;
+}
+.logo img{
+    height: 40px;
+    width: 50px;
+    object-fit: cover;
+}
+
+.content ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content ul li{
+    padding-right: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.content ul li a{
+    text-decoration: none;
+}
